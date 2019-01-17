@@ -101,12 +101,15 @@ _Student NetID_: eob1
   - An applicant submitting a false resume, strongly overstating his credentials, or even lying
   - Hiring someone who "outperformed" his ability on the interview
   - Signing someone who doesn't fit into the company
-  - An applicant tampering with saved resumes of other applicants, in order to gain an advantage
+  - An adversary reading or modifying the resumes of applicants, creating an unfair advantage
+  - An interviewer implicitly discriminating against an applicant
 - Countermeasures:
     - In order to maximally protect against false applications, hire a background checker and conduct in-person interviews in which the interviewers can challenge different areas. 
     - Create screening interviews, which can be conducted online inexpensively — this will "weed out" a large proportion of applicants and leave 
     - Create rigorous questions that require a deep understanding of the field and leave little doubt of the candidate's limits (testing competency)
     - Figure out the company's values, and design informative questions to ensure that the applicant aligns with these (testing culture fit)
     - Store applicant resumes in an encrypted, reputable storage to minimize the likelihood of tampering
+    - Have a set of interviewers interview each applicant, to minimize biases
+        - This is a tradeoff — allocating more interviewers increases cost, so the right balance needs to be found
 
 
