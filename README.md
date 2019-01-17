@@ -82,18 +82,31 @@ _Student NetID_: eob1
     - The class should use sophisticated plagiarism software to efficiently and accurately predict plagiarism
     - Iterate continously on the security approach
         - If a lock on the mailbox fails, consider accepting homeworks in class or electronically
+    - Insuring against a student outsourcing their work is tricky — perhaps the essay could be written in class, but even then another student could pretend to be him
+
 
 ## Problem 3
-- Scenario: Your choice (give a brief explanation)
+- Scenario: {Imagine you are an employer interviewing applicants for a job}
 - Assumptions:
-    - I am assuming the point of view of a user, who does not have control over the system architecture. 
+    - The field is generally in the area of "knowledge work" (as opposed to mechanical, physical labor)
+    - Resumes are submitted online
+    - The cost of a bad hire is high
+    - The company is more concerned about avoiding false positives (i.e. accepting 'bad' candidates) than it is about finding false negatives (i.e. rejected 'good' applicants)
 - Assets:
-  - explanatory_paragraph
-  - explanatory_paragraph ...
+    - Company culture
+    - Company profits
+    - Company impact
+    - Time (of the interviewers), which translates to money
 - Threats:
-  - explanatory_paragraph 
-  - explanatory_paragraph ...
+  - An applicant submitting a false resume, strongly overstating his credentials, or even lying
+  - Hiring someone who "outperformed" his ability on the interview
+  - Signing someone who doesn't fit into the company
+  - An applicant tampering with saved resumes of other applicants, in order to gain an advantage
 - Countermeasures:
-  - explanatory_paragraph
-  - explanatory_paragraph ...
+    - In order to maximally protect against false applications, hire a background checker and conduct in-person interviews in which the interviewers can challenge different areas. 
+    - Create screening interviews, which can be conducted online inexpensively — this will "weed out" a large proportion of applicants and leave 
+    - Create rigorous questions that require a deep understanding of the field and leave little doubt of the candidate's limits (testing competency)
+    - Figure out the company's values, and design informative questions to ensure that the applicant aligns with these (testing culture fit)
+    - Store applicant resumes in an encrypted, reputable storage to minimize the likelihood of tampering
+
 
