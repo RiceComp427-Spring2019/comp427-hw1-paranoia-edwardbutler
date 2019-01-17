@@ -18,55 +18,75 @@ _Student NetID_: eob1
 ## Problem 1
 - Scenario: {Stadium}
 - Assumptions:
-  - I am assuming that the fans are positioned around the field, and that the security is incentivized to create a holistically great fan experience 
-  (not only a safe one).
-- Assets:
-    - the comfort of those in attendence
-    - the comfort of those on the field
+  - I am assuming that the seated fans are positioned around the field, and that the security is incentivized to create a holistically great fan experience (not only a safe one). Also because the team is highly ranked, I am assuming that attendence is at its capacity. 
+  - Assets:
+    - the comfort of the fans
+    - the comfort of those on the field (i.e. the players, coaching staff, and special stadium workers)
     - the security of those in attendence
     - the security of those on the field
-    - fan entertainment
     - the integrity of the sport (unbiasedness - the fairness of the game's outcome)
+    - fan entertainment
     - the long-term profitability of the stadium
+    - the infrastructure of the stadium
 - Threats:
-    - Rowdy fans, who may engage in violent or dangerous behavior among each other or enter the field, putting those on the field at risk.
+    - People who enter the stadium with weapons or dangerous substances, potentially, although not necessarily, with the intent to harm others
+    - Rowdy fans, who may engage in violent or dangerous behavior among each other or enter the field, putting those on the field at risk
     - Fire, gas leaks, or natural disaster, which all pose safety risk
-    - Power outage
+    - Power outages, which will reduce fan entertainment
     - Poor attendence, which will hinder ticket sales 
+    - Fans sneaking in without tickets, which lowers profits and is unfair to paying fans
 - Countermeasures:
-    - Require that everyone who enters the stadium goes through a security protocol
-        - This security...
+    - Require that everyone who enters the stadium go through a reasoanble security protocol, which ensures (with high probability) that no weapons or dangerous substances are brought into the stadium
+        - Because the attendence is high, in the interest of time, this system should be efficient, standardized, and automated as much as possible.
     - Have stringent checks for alcohol, ensuring that everyone who purchases it is identified
+        - Also, maintain a database of users who have purchased alcohol so that security can confirm that no fan buys too much alcohol. This, of course, can be abused — fans can purchase for others, or create fake ID's. However, some compromise between cost/effort and security needs to be made. I think this protocol is an appropriate balance.
     - Position reasonable security alongside the stands to minimize the likelihood (and time) that errant passengers enter the field
-    - Ensuring that an ambulance is on-site and capable of being utilized swiftly 
-    - Installing a back-up generator to insure against power outages, which disrupt the flow of the game
-    - Installing smoke and gas detectors to alert security of potential danger
+    - Contract a EMS with an ambulance on-site who is capable of being utilized swiftly, in case of emergency (for fans and players)
+    - Contract a set of police officers who stay on-site during the game, if legal action is needed
+    - Install a back-up generator to ensure that power loss does not disrupt the flow of the game, which would disturb fan and player attendence, as well as hinder the long-term profitability of the stadium
+    - Install smoke and gas detectors to insure against fires and gas leaks, which could harm those in attendence, as well as the stadium infrastructure
+    - Set up turnstyle entrances that are difficult to jump over
+    - Institute an evacuation protocol, in the event of natural disaster or accident
 
 ## Problem 2
 - Scenario: {Grading}
 - Assumptions:
-    - I am assuming that the class in question is a college English class in the United States and that the homework assignments are essays, which are turned in physically (i.e. via a paper handout) to the professor's mailbox. 
+    - I am assuming that the class in question is a college class in which homework assignments are turned in physically (i.e. via a paper handout) to the professor's mailbox. 
 - Assets:
     - The character of the students
     - The reputation of the school
-    - The integrity of the class
-    - The grades of students who did honest work
+    - The integrity of the class and the grading system
     - The time of the professor and staff
 - Threats:
+    - Erratic grading, which will lead to more regrade requests — wasting the staff's time
+    - Students asking for unreasonable regrades — wasting the staff's time
     - Students directly copying the work of other students
     - Students directly plagiarizing the work found online
     - Students failing to cite the work of others online
     - Students hiring someone to do the work for them
+    - Potential grade deflation for the students who do honest work
     - Students turning in homework after the due date
     - Students making up a fake story to get out of doing the work
-    - Excessive paranoia — systematically making false accusations of cheating
+    - An attack on the professor's mailbox (e.g. theft of papers, vandalization, changing work after deadline)
+    - Excessive paranoia — systematically making false accusations of cheating - which will instill unproductive fears into the students and waste the professor's time
 - Countermeasures:
-    - Ensuring that students are aware of how to cite documents found from a multitude of sources
+    - Institute and discuss a clear grading policy on the syllabus to insure against confusion
+    - Dedicate significant time in the beginning of the term to teach students how to cite and which resources to use
+    - Normalize scores per grader — so that students are not penalized by having a tough grader
+    - Empty the mailbox soon after the deadline and store in secure, unknown location to insure against late submissions
+    - Require that late submissions are confirmed by an authority figure, by signature
+        - Granted, signatures can be forged. An alternative is to call the number directly. This is less easily manipulated, yet the most secure way to confirm is to meet with the authority directly.
+    - Develop a grading rubric for assignments to set a standard against which assignments are compared
+    - Ensure that students are aware of how to cite documents found from a multitude of sources
+    - Put a non-standard lock (i.e. what that is not easily duplicated) on the mailbox
+    - The class should use sophisticated plagiarism software to efficiently and accurately predict plagiarism
+    - Iterate continously on the security approach
+        - If a lock on the mailbox fails, consider accepting homeworks in class or electronically
 
 ## Problem 3
 - Scenario: Your choice (give a brief explanation)
 - Assumptions:
-  - explain_your_assumptions
+    - I am assuming the point of view of a user, who does not have control over the system architecture. 
 - Assets:
   - explanatory_paragraph
   - explanatory_paragraph ...
