@@ -35,8 +35,9 @@ _Student NetID_: eob1
     - Power outages, which will reduce fan entertainment
     - Poor attendence, which will hinder ticket sales 
     - Fans sneaking in without tickets, which lowers profits and is unfair to paying fans
+        - Also, fans who sneak in without tickets are likely more disposed to sneaking in past security, which poses obvious safety risks for all
 - Countermeasures:
-    - Require that everyone who enters the stadium go through a reasoanble security protocol, which ensures (with high probability) that no weapons or dangerous substances are brought into the stadium
+    - Require that everyone who enters the stadium go through a reasonable security protocol, which ensures (with high probability) that no weapons or dangerous substances are brought into the stadium
         - Because the attendence is high, in the interest of time, this system should be efficient, standardized, and automated as much as possible.
     - Have stringent checks for alcohol, ensuring that everyone who purchases it is identified
         - Also, maintain a database of users who have purchased alcohol so that security can confirm that no fan buys too much alcohol. This, of course, can be abused — fans can purchase for others, or create fake ID's. However, some compromise between cost/effort and security needs to be made. I think this protocol is an appropriate balance.
@@ -75,7 +76,7 @@ _Student NetID_: eob1
     - Normalize scores per grader — so that students are not penalized by having a tough grader
     - Empty the mailbox soon after the deadline and store in secure, unknown location to insure against late submissions
     - Require that late submissions are confirmed by an authority figure, by signature
-        - Granted, signatures can be forged. An alternative is to call the number directly. This is less easily manipulated, yet the most secure way to confirm is to meet with the authority directly.
+        - Granted, signatures can be forged. An alternative is to call the authority's number directly. This is less easily manipulated, yet the most secure way to confirm is to meet with the authority directly.
     - Develop a grading rubric for assignments to set a standard against which assignments are compared
     - Ensure that students are aware of how to cite documents found from a multitude of sources
     - Put a non-standard lock (i.e. what that is not easily duplicated) on the mailbox
@@ -97,15 +98,16 @@ _Student NetID_: eob1
     - Company profits
     - Company impact
     - Time (of the interviewers), which translates to money
+    - Applicant confidentiality 
 - Threats:
   - An applicant submitting a false resume, strongly overstating his credentials, or even lying
   - Hiring someone who "outperformed" his ability on the interview
   - Signing someone who doesn't fit into the company
-  - An adversary reading or modifying the resumes of applicants, creating an unfair advantage
+  - An adversary reading or modifying the resumes of applicants, exposing potentially confidential data and creating an unfair advantage
   - An interviewer implicitly discriminating against an applicant
 - Countermeasures:
     - In order to maximally protect against false applications, hire a background checker and conduct in-person interviews in which the interviewers can challenge different areas. 
-    - Create screening interviews, which can be conducted online inexpensively — this will "weed out" a large proportion of applicants and leave 
+    - Create screening interviews, which can be conducted online inexpensively — this will "weed out" a large proportion of applicants, reducing the company's expenditures
     - Create rigorous questions that require a deep understanding of the field and leave little doubt of the candidate's limits (testing competency)
     - Figure out the company's values, and design informative questions to ensure that the applicant aligns with these (testing culture fit)
     - Store applicant resumes in an encrypted, reputable storage to minimize the likelihood of tampering
